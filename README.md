@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-Classical Cipher Tool
+OClassic is a professional classical cipher suite that encrypts, decrypts and analyses text across more than twenty historical schemes. Beyond the common Caesar, Vigenère and Playfair ciphers it adds Four-Square, Homophonic, Running Key, columnar transposition and Morse, with brute-force Caesar, auto-detection and frequency analysis. Operations are available both interactively and from the command line for scripting.
 
 ---
 
 ## ✨ Features
 
-- OClassic - Classical ciphers: 22 classical ciphers (Caesar, Vigenère, Playfair, Affine, Rail Fence, Bacon, ROT47, A1Z26, XOR) + auto-detect
+- 20+ ciphers incl. Caesar, Vigenère, Playfair, Affine, Bacon and Four-Square
+- Columnar transposition, Homophonic and Running Key ciphers
+- Brute-force Caesar and automatic cipher auto-detection
+- Frequency analysis for cryptanalysis
+- Command-line mode with cipher, mode, key, shift and rails options
+- Session logging of operations
 
 ---
 
@@ -38,7 +43,10 @@ Classical Cipher Tool
 ## 🚀 Usage
 
 ```bash
+./OClassic --cipher caesar --mode E --text "HELLO" --shift 3
+./OClassic --cipher vigenere --mode D --text "RIJVS" --key KEY
 ./OClassic
+./OClassic --help
 ```
 
 ---
